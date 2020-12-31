@@ -6,9 +6,5 @@
 
 int main(){
     
-    bool autorizacionConcedida;
-    autorizacionConcedida = false;
-    autorizacionConcedida = true;
-    
     return 0;
 }
