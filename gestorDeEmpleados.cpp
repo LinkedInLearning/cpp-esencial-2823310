@@ -6,9 +6,5 @@
 
 int main(){
 
-    int edad;
-    edad = 18;
-    int cantidadDeBytes = sizeof(int);
-
     return 0;
 }
