@@ -6,7 +6,5 @@
 
 int main(){
 
-    char holaMundo[12] = "Hola Mundo!";
-
     return 0;
 }
