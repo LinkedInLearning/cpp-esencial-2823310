@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main(){ 
 
     int identificador = 20;
     int *p_identificador = &identificador;
