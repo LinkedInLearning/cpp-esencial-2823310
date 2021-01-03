@@ -9,9 +9,21 @@ using namespace std;
 
 int main(){
 
-    int identificador = 1500;
-    string nombre("Eliezer");
-    string apellido("López");
+    int identificador;
+    string nombre;
+    string apellido;
+
+    cout << "Hola!" << endl;
+    cout << "Por favor, introduce la siguiente información: " << endl;
+
+    cout << "Identificador: ";
+    cin >> identificador;
+
+    cout << "Nombre: ";
+    cin >> nombre;
+
+    cout << "Apellido: ";
+    cin >> apellido;
 
     cout << "El identificador del empleado " << nombre << " " << apellido << " es el número " << identificador <<".";
 
