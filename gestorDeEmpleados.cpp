@@ -10,11 +10,10 @@ using namespace std;
 int main(){
 
     int identificador;
-    float salarioMensualMedio;
-    string nombre;
-    string apellido;
-    float salarios[12];
-
+    float salarioMensualMedio, salarios[12];
+    string nombre, apellido;
+    bool salarioPorEncimaDeLaMedia;
+    
     cout << "Hola!" << endl;
     cout << "Por favor, introduce la siguiente información: " << endl;
 
@@ -64,6 +63,8 @@ int main(){
     cin >> salarios[11];
 
     salarioMensualMedio = (salarios[0] + salarios[1] + salarios[2] + salarios[3] + salarios[4] + salarios[5] + salarios[6] + salarios[7] + salarios[8] + salarios[9] + salarios[10] + salarios[11])/12;
+
+    salarioPorEncimaDeLaMedia = (salarioMensualMedio > 3500);
 
     cout << "El identificador del empleado " << nombre << " " << apellido << " es el número " << identificador <<"." << endl;
     cout << "El salario mensual medio de " << nombre << " " << apellido << " es " << salarioMensualMedio << " euros.";
