@@ -6,5 +6,7 @@
 
 int main(){
 
+    int enteroEnAmbitoLocal = 100;
+    
     return 0;
 }
