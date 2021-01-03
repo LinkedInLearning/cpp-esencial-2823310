@@ -16,4 +16,4 @@ int main(){
     cout << "El identificador del empleado " << nombre << " " << apellido << " es el número " << identificador <<".";
 
     return 0;
-}
+} 
