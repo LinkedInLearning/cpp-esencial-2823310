@@ -12,7 +12,7 @@ int main(){
     cout << "Aprendiendo a programar en C++";
     cout << "con los cursos de LinkedIn Learning";
 
-    // Las palabras 'C++' y 'con' se imprimirán en pantalla sin empacio entre ellas
+    // Visita LinkedIn.com/Learning para más cursos sobre C++
     
     return 0;
 }
