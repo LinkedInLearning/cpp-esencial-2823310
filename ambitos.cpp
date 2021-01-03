@@ -6,7 +6,5 @@
 
 int main(){
 
-    int numeroDeCarasDeUnDado;
-    
     return 0;
 }
