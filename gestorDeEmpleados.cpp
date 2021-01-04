@@ -7,13 +7,16 @@
 #include <string>
 using namespace std;
 
+enum Categoria {A = 300,B = 350,C = 400, D = 0};
+
 int main(){
 
     int identificador;
     float salarioMensualMedio, salarios[12];
     string nombre, apellido;
     bool salarioPorEncimaDeLaMedia;
-    
+    Categoria bonificacionAsociada;
+
     cout << "Hola!" << endl;
     cout << "Por favor, introduce la siguiente información: " << endl;
 
@@ -69,5 +72,17 @@ int main(){
     cout << "El identificador del empleado " << nombre << " " << apellido << " es el número " << identificador <<"." << endl;
     cout << "El salario mensual medio de " << nombre << " " << apellido << " es " << salarioMensualMedio << " euros.";
     
+    char categoriaALaQuePertenece;
+
+    cout << "¿A qué categoría pertenece? (A, B, C): ";
+    cin >> categoriaALaQuePertenece;
+
+    switch(categoriaALaQuePertenece){
+        case 'A': bonificacionAsociada = A; break;
+        case 'B': bonificacionAsociada = B; break;
+        case 'C': bonificacionAsociada = C; break;
+        case 'D': bonificacionAsociada = D; break;
+    }
+
     return 0;
 } 
