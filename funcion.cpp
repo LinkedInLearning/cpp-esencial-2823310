@@ -4,16 +4,16 @@
  * Instructor: @EliezerLopez
  * */
 
-float calculaIvaEnEuros(float, int, float);
+float calculaIvaEnEuros(float=1000);
 
 int main(){
 
     float importeTotal = 1500.34;
-    float ivaCalculadoEnEuros = calculaIvaEnEuros(importeTotal, 12, 13.4);
+    float ivaCalculadoEnEuros = calculaIvaEnEuros();
     
     return 0;
 }
 
-float calculaIvaEnEuros(float importeTotalEnEuros, int a, float b){
+float calculaIvaEnEuros(float importeTotalEnEuros){
     return (importeTotalEnEuros * 0.21);
 }
