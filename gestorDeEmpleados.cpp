@@ -10,6 +10,7 @@ using namespace std;
 enum Categoria {A = 300,B = 350,C = 400, D = 0};
 
 class Empleado {
+    
 public:
     int identificador;
     float salarioMensualMedio;
