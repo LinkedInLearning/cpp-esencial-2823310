@@ -17,6 +17,9 @@ public:
     Categoria bonificacionAsociada;
     string nombre, apellido;
     static int proximaEvaluacion;
+
+    float estimacionPagoTotalMensual();
+
 private:
 
 };
@@ -96,4 +99,8 @@ int main(){
     }
 
     return 0;
+}
+
+float Empleado::estimacionPagoTotalMensual(){
+    return (salarioMensualMedio + bonificacionAsociada);
 }
