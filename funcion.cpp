@@ -15,6 +15,5 @@ int main(){
 }
 
 float calculaIvaEnEuros(float importeTotalEnEuros){
-
     return (importeTotalEnEuros * 0.21);
 }
