@@ -17,7 +17,6 @@ public:
     Categoria bonificacionAsociada;
     string nombre, apellido;
     static int proximaEvaluacion;
-
 private:
 
 };
