@@ -12,7 +12,7 @@ int main(){
     return 0;
 }
 
-tipoRetorno nombreFuncion(){
+float calculaIvaEnEuros(float importeTotalEnEuros){
 
     
 }
