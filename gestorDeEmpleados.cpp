@@ -16,13 +16,17 @@ public:
     float salarioMensualMedio;
     Categoria bonificacionAsociada;
     string nombre, apellido;
+    static int proximaEvaluacion;
+
 private:
 
 };
 
 int main(){
 
-    Empleado empleado;
+    Empleado empleado, empleado2;
+    empleado.proximaEvaluacion = 2025;
+    
     float salarios[12];
     char categoriaALaQuePertenece;
     bool salarioPorEncimaDeLaMedia;
