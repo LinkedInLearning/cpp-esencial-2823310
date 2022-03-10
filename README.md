@@ -1,6 +1,8 @@
 # C++ Esencial
 Éste es el repositorio para el curso `C++ Esencial` de LinkedIn Learning, impartido por Eliezer López. El curso completo está disponible en [LinkedIn Learning](https://www.linkedin.com/learning/c-plus-plus-esencial).
 
+![tn-url]
+
 Adéntrate en el mundo de la programación en C++ con este curso eminentemente práctico. Aprenderás los conceptos básicos de la programación a través del lenguaje C++ realizando un pequeño programa para una hipotética empresa. Esto te servirá de base tanto para continuar aprendiendo C++ en profundidad, como para conocer las bases de cualquier lenguaje de programación orientado a objetos. Repasarás tipos básicos como variables y constantes, dando paso a datos complejos como arrays, vectores y matrices. También aprenderás sobre control de flujo mediante estructuras como if y switch, la creación y correcta utilización de bucles, las clases y los objetos, y mucho más.
 
 ## Instrucciones
@@ -29,3 +31,5 @@ La rama `b` contiene el código tal y como se encuentra al comienzo del video. L
 _Desarrollador de Software_
 
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/eliezer-lopez?u=104).
+
+[tn-url]: https://media-exp1.licdn.com/dms/image/C4E0DAQGpQkRcBRdMnQ/learning-public-crop_675_1200/0/1605533765847?e=1646964000&v=beta&t=_VoP_Hh1Gi2qKC65cdntQuAKXp0-wjqx7vpkrjafQqc
