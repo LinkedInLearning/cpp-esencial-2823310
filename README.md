@@ -32,4 +32,4 @@ _Desarrollador de Software_
 
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/eliezer-lopez?u=104).
 
-[tn-url]: https://media-exp1.licdn.com/dms/image/C4E0DAQGpQkRcBRdMnQ/learning-public-crop_675_1200/0/1605533765847?e=1646964000&v=beta&t=_VoP_Hh1Gi2qKC65cdntQuAKXp0-wjqx7vpkrjafQqc
+[tn-url]: https://cdn.lynda.com/course/2823310/2823310-1605533761317-16x9.jpg
